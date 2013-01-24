@@ -6,7 +6,7 @@ properties {
     $OutputDir = "$BaseDir\temp\"
     $PackageDir = "$BaseDir\temp\package"
     $ArtifactsDir = "$BaseDir\artifacts"
-    $BaseVersion = "0.0.1"
+    $BaseVersion = "0.9.0"
     $Version = "$BaseVersion" 
     $PatchNumber = (git rev-list --all | wc -l).trim() # TODO: better implementation
     $AssemblyVersion = "$BaseVersion.$PatchNumber"
