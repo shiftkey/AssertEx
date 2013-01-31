@@ -14,4 +14,10 @@
     <copyright>Copyright 2012</copyright>
     <tags>unit-testing testing assert</tags>
   </metadata>
+  <files>
+    <file src="bin\Release\AssertExLib.dll" target="lib\net40\AssertExLib.dll" />
+    <file src="bin\Release\AssertExLib.dll" target="lib\net45\AssertExLib.dll" />
+    <file src="bin\Release\AssertExLib.dll" target="lib\windows8\AssertExLib.dll" />
+    <file src="bin\Release\AssertExLib.dll" target="lib\sl5\AssertExLib.dll" />
+  </files>
 </package>
